@@ -14,8 +14,12 @@ const Feed = () => {
       }}>
         Sidebar
 
-        <Typography>
-          Copyright Shah Jawad Islam
+        <Typography 
+          className='copyright' 
+          variant='body2' 
+          sx={{ mt: 1.5, color: '#fff'}}
+          >
+          Copyright 2023 Shah Jawad Islam
         </Typography>
       </Box>
       
