@@ -6,11 +6,11 @@ import { categories } from '../utils/constants.';
 
 const Sidebar = ({ selecetedCategory, setSelectedCategory }) => (
     <Stack 
-    direction={'column'}
+    direction={'row'}
     sx={{
-        overflow: "auto",
-        height: { sx: 'auto', md: '95%', 
-        flexDirection: {md: 'column'}}  
+        overflowY: "auto",
+        height: { sx: 'auto', md: '95%'}, 
+        flexDirection: {md: 'column'}  
     }}
     >
         {categories.map((category) => (
